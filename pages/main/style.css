@@ -1,0 +1,100 @@
+/* noto-serif-georgian-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Serif Georgian';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../assets/fonts/noto-serif-georgian-v26-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Noto Serif Georgian';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #545454;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*header styles start*/
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_item {
+  margin-right: 35px;
+}
+
+.header_item:last-child {
+  margin-right: 0px;
+}
+
+.header_link {
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+  text-decoration: none;
+}
+
+.header_link:hover, header_link:active{
+  opacity: .75;
+} 
+
+/*header styles end*/
+
+/*intro styles start*/
+
+.container{
+  height: 100vh;
+  background: url(/shelter/assets/images/Start\ screen.png) no-repeat center;
+  background-size: cover;
+}
+
+.intro{
+  padding-top: 253px;
+}
+
+.intro_title{
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin-bottom: 42px;
+}
+
+.intro_subtitle{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #CDCDCD;
+  margin-bottom: 57px;
+}
+
+/*header styles end*/
