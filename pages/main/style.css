@@ -13,14 +13,12 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+*,*::before,*::after {
   box-sizing: inherit;
 }
 
 body {
-  font-family: 'Noto Serif Georgian';
+  font-family: Georgia;
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
@@ -64,7 +62,7 @@ body {
 }
 
 .header_link:hover, header_link:active{
-  opacity: .75;
+  color: #FAFAFA;
 } 
 
 /*header styles end*/
@@ -75,6 +73,7 @@ body {
   height: 100vh;
   background: url(/shelter/assets/images/Start\ screen.png) no-repeat center;
   background-size: cover;
+  
 }
 
 .intro{
@@ -87,6 +86,7 @@ body {
   line-height: 130%;
   color: #FFFFFF;
   margin-bottom: 42px;
+  
 }
 
 .intro_subtitle{
@@ -94,7 +94,25 @@ body {
   font-weight: 400;
   line-height: 160%;
   color: #CDCDCD;
-  margin-bottom: 57px;
+  margin-bottom: 42px;
 }
+
+.search_submit{
+  font-size: 17px;
+  font-weight: 400;
+  font: inherit;
+  background: rgb(241, 205, 179);
+  border: 0;
+  border-radius: 100px;
+  font-family: Georgia;
+  width: 207px;
+  height: 52px;
+  letter-spacing: 0.06em;
+}
+
+.search_submit:hover, search_submit:active{
+  background: #c0a18a;
+} 
+
 
 /*header styles end*/
