@@ -26,6 +26,11 @@ body {
   color: #545454;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -78,6 +83,7 @@ body {
 
 .intro{
   padding-top: 253px;
+  position: relative;
 }
 
 .intro_title{
@@ -114,5 +120,11 @@ body {
   background: #c0a18a;
 } 
 
+.dog-pic{  
+  position: absolute;
+  padding: 90px 0px 0px 502px;
+  top:auto;
+  left: auto;
+  transform: translateY(-70.3%) 
+}
 
-/*header styles end*/
