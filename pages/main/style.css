@@ -70,12 +70,10 @@ img{
   color: #FAFAFA;
 } 
 
-/*header styles end*/
-
-/*intro styles start*/
+/*Not only styles start*/
 
 .container{
-  height: 100vh;
+  height: 908px;
   background: url(/shelter/assets/images/Start\ screen.png) no-repeat center;
   background-size: cover;
   
@@ -122,9 +120,62 @@ img{
 
 .dog-pic{  
   position: absolute;
-  padding: 90px 0px 0px 502px;
-  top:auto;
-  left: auto;
-  transform: translateY(-70.3%) 
+  top:90px;
+  left: 662px;
 }
 
+/*About styles start*/
+
+.about_wrapper{
+  padding-top: 80px;
+  background-color: #FFFFFF;
+  background-size: cover;
+  height: 588px;
+  display: flex;
+}
+
+.cat_and_dog{
+  padding-left: 175px;
+  height: 408px;
+
+}
+
+.about_text_wrapper{
+  padding-top: 14px;
+  max-width: 430px;
+  margin-left: 120px;
+  flex-wrap: wrap;
+  align-items:self-end;
+  
+}
+
+.about_title{
+  color: rgb(84, 84, 84);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 6%;
+  text-align: left;
+  margin-bottom: 24.5px;
+  letter-spacing: 0.06em;
+
+}
+
+.first{
+  color: rgb(76, 76, 76);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.second{
+  color: rgb(76, 76, 76);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+}
