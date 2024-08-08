@@ -145,6 +145,7 @@ img{
 .about_text_wrapper{
   padding-top: 14px;
   max-width: 430px;
+  margin: 0 auto;
   margin-left: 120px;
   flex-wrap: wrap;
   align-items:self-end;
@@ -393,4 +394,64 @@ img{
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 120px;
   text-align: center;
+}
+
+/* In addition styles start */
+
+.In_addition{
+  background: rgb(246, 246, 246);
+}
+
+.addition_wrapper{
+  max-width: 915px;
+  margin: 0 auto;
+  height: 462px;
+  padding-top: 80px;
+  
+}
+
+.orange_dog{
+  padding-top: 11px;
+  height: 261px;
+}
+
+.addition_title{
+  color: rgb(84, 84, 84);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+
+.addition_subtitle{
+  color: rgb(84, 84, 84);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+
+.credit_card{
+  background: transparent url(/shelter/assets/icons/credit-card.svg) no-repeat left 15px center;
+  border-radius: 9px;
+  width: 349px;
+  height: 43px;
+  padding: 10px 15px 10px 60px;
+  background-color: #F1CDB3;
+  color: rgb(84, 84, 84);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 115%;
+  margin-bottom: 20px;
+}
+
+.addition_info{
+  color: rgb(178, 178, 178);
+  font-family: Arial;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  width: 380px;
 }
