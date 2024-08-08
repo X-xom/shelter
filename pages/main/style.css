@@ -105,7 +105,7 @@ img{
   font-size: 17px;
   font-weight: 400;
   font: inherit;
-  background: rgb(241, 205, 179);
+  background: #F1CDB3;
   border: 0;
   border-radius: 100px;
   font-family: Georgia;
@@ -115,7 +115,7 @@ img{
 }
 
 .search_submit:hover, search_submit:active{
-  background: #c0a18a;
+  background: #FDDCC4;
 } 
 
 .dog-pic{  
@@ -184,7 +184,7 @@ img{
 
 /*Our friends styles start*/
 
-.Our_friends{
+.Our_Friends{
   background: rgb(246, 246, 246);
 }
 
@@ -243,7 +243,8 @@ img{
 }
 
 .button_arrow1:hover, button_arrow1:active{
-  background: rgb(241, 205, 179);
+  background: #FDDCC4;
+  border: #FDDCC4;
 } 
 
 .button_arrow2{
@@ -262,7 +263,9 @@ img{
 }
 
 .button_arrow2:hover, button_arrow2:active{
-  background: rgb(241, 205, 179);
+  background: #FDDCC4;
+  border: #FDDCC4;
+
 } 
 
 .our_pic_pet{
@@ -305,7 +308,9 @@ img{
 }
 
 .our_info_button:hover, our_info_button:active{
-  background: rgb(241, 205, 179);
+  background: #FDDCC4;
+  border: #FDDCC4;
+
 } 
 
 .last_button{
@@ -329,4 +334,33 @@ img{
   font-weight: 400;
   line-height: 130%;
   color: rgb(41, 41, 41);
+}
+
+.last_button:hover, last_button:active{
+  background: #FDDCC4
+} 
+
+/*Help styles start */
+
+.Help{
+  background-color: rgb(255, 255, 255);
+  padding-top: 80px;
+  height: 611px;
+}
+
+.help_title{
+  width: 308px;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(84, 84, 84);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  
+}
+
+.places_cards{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 120px;
 }
