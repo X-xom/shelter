@@ -346,21 +346,51 @@ img{
   background-color: rgb(255, 255, 255);
   padding-top: 80px;
   height: 611px;
+  max-width: 1026px;
+  margin: 0 auto;
 }
 
 .help_title{
-  width: 308px;
   text-align: center;
   margin: 0 auto;
   color: rgb(84, 84, 84);
   font-size: 35px;
   font-weight: 400;
   line-height: 130%;
-  
+  letter-spacing: 0.06em;
+  margin-bottom: 60px;
 }
 
-.places_cards{
+.places_cards1{
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 120px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.help_icon{
+  height: 60px;
+  object-fit: cover;
+  max-width: 165px;
+  margin-bottom: 30px;
+}
+
+.places_card_title{
+  color: rgb(84, 84, 84);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.places_cards2{
+  max-width: 856px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 120px;
+  text-align: center;
 }
