@@ -11,6 +11,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,*::before,*::after {
@@ -64,6 +65,19 @@ img{
   line-height: 160%;
   color: #CDCDCD;
   text-decoration: none;
+  font-family: Arial;
+}
+
+.header_link_border{
+  font-family: Arial;
+  width: 114px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #F1CDB3;
+  font-size: 15px;
+  line-height: 160%;
+  color: #FAFAFA;
+  text-decoration: none;
+  height: 24px;
 }
 
 .header_link:hover, header_link:active{
@@ -102,21 +116,22 @@ img{
   font-size: 15px;
   font-weight: 400;
   line-height: 160%;
-  margin-bottom: 42px;
+  margin-bottom: 57px;
 }
 
 .search_submit{
   font-size: 17px;
   font-weight: 400;
   line-height: 130%;
-  font: inherit;
-  background: #F1CDB3;
-  border: 0;
-  border-radius: 100px;
-  font-family: Georgia;
-  width: 207px;
-  height: 52px;
+  color: #292929;
   letter-spacing: 0.06em;
+  text-decoration: none;
+
+  background: #F1CDB3;
+  border-radius: 100px;
+  max-width: 52px;
+  padding: 16px 45px 16px 45px;
+
 }
 
 .search_submit:hover, search_submit:active{
@@ -250,7 +265,6 @@ img{
   border: 2px solid rgb(241, 205, 179);
   border-radius: 100px;
   margin-right: 53px;
-  letter-spacing: 0.06em;
 }
 
 .button_arrow1:hover, button_arrow1:active{
@@ -270,7 +284,6 @@ img{
   border: 2px solid rgb(241, 205, 179);
   border-radius: 100px;
   margin-left: 53px;
-  letter-spacing: 0.06em;
 }
 
 .button_arrow2:hover, button_arrow2:active{
