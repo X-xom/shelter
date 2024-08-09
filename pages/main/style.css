@@ -80,11 +80,13 @@ img{
 }
 
 .intro{
-  padding-top: 253px;
-  position: relative;
+  padding-top: 90px;
+  display: flex;
+  height: 818px;
 }
 
 .intro_title{
+  padding-top: 163px;
   font-size: 44px;
   font-weight: 400;
   line-height: 130%;
@@ -94,16 +96,19 @@ img{
 }
 
 .intro_subtitle{
+  width: 460px;
+  color: #CDCDCD;
+  font-family: Arial;
   font-size: 15px;
   font-weight: 400;
   line-height: 160%;
-  color: #CDCDCD;
   margin-bottom: 42px;
 }
 
 .search_submit{
   font-size: 17px;
   font-weight: 400;
+  line-height: 130%;
   font: inherit;
   background: #F1CDB3;
   border: 0;
@@ -118,10 +123,8 @@ img{
   background: #FDDCC4;
 } 
 
-.dog-pic{  
-  position: absolute;
-  top:90px;
-  left: 662px;
+.dog_pic{
+  padding-left: 43px;
 }
 
 /*About styles start*/
@@ -226,6 +229,13 @@ img{
   align-items: center;
   flex-direction: column;
 
+}
+
+.our_card:hover, our_card:active{
+  box-shadow: 0px 1px 2px rgb(237 236 236), 
+            0px 2px 4px rgb(237 236 236), 
+            0px 4px 8px rgb(237 236 236), 
+            0px 8px 16px rgb(237 236 236);
 }
 
 .button_arrow1{
@@ -515,7 +525,6 @@ footer{
   background: transparent url(/shelter/assets/icons/mail.svg) no-repeat left center;
   padding-left: 60px;
   margin-bottom: 40px;
-
   height: 32px;
 }
 
@@ -523,8 +532,6 @@ footer{
   background: transparent url(/shelter/assets/icons/icon-phone.svg) no-repeat left bottom;
   padding-left: 60px;
   height: 32px;
-  
-
 }
 
 .visit{
@@ -541,9 +548,7 @@ footer{
 .first_location{
   background: transparent url(/shelter/assets/icons/icon-marker.svg) no-repeat left center;
   padding-left: 42px;
-
   margin-bottom: 32px;
-
   height: 46px;
 }
 
