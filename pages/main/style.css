@@ -407,12 +407,23 @@ img{
   margin: 0 auto;
   height: 462px;
   padding-top: 80px;
+  display: flex;
   
 }
 
 .orange_dog{
   padding-top: 11px;
-  height: 261px;
+  width: 100%;
+  height: 272px;
+
+}
+
+.addition_text_wrapper{
+  max-width: 380px;
+  margin: 0 auto;
+  margin-left: 30px;
+  flex-wrap: wrap;
+
 }
 
 .addition_title{
@@ -421,6 +432,7 @@ img{
   font-weight: 400;
   line-height: 130%;
   margin-bottom: 20px;
+  letter-spacing: 0.06em;
 }
 
 .addition_subtitle{
@@ -429,12 +441,13 @@ img{
   font-weight: 400;
   line-height: 110%;
   margin-bottom: 20px;
+  letter-spacing: 0.06em;
 }
 
 .credit_card{
   background: transparent url(/shelter/assets/icons/credit-card.svg) no-repeat left 15px center;
   border-radius: 9px;
-  width: 349px;
+  width: 350px;
   height: 43px;
   padding: 10px 15px 10px 60px;
   background-color: #F1CDB3;
@@ -443,6 +456,8 @@ img{
   font-weight: 400;
   line-height: 115%;
   margin-bottom: 20px;
+  letter-spacing: 0.06em;
+
 }
 
 .addition_info{
@@ -454,4 +469,85 @@ img{
   line-height: 18px;
   letter-spacing: 0px;
   width: 380px;
+}
+
+/* footer styles start */
+
+footer{
+  height: 350px;
+  background: url(/shelter/assets/images/Footer.png) no-repeat center;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.columns{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.first_column{
+  margin-right: 160px;
+}
+
+.second_column{
+  margin-right: 160px;
+}
+
+.questions{
+  padding-top: 16px;
+  margin-bottom: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+
+}
+
+.email{
+  margin-bottom: 49px;
+  color: rgb(241, 205, 179);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+
+}
+
+.telephone{
+  color: rgb(241, 205, 179);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+}
+
+.visit{
+  padding-top: 16px;
+  margin-bottom: 34px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  width: 270px;
+}
+
+.first_location{
+  margin-bottom: 37px;
+  color: rgb(241, 205, 179);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  width: 260px;
+}
+
+.second_location{
+  color: rgb(241, 205, 179);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.06em;
 }
