@@ -486,41 +486,45 @@ footer{
 	flex-wrap: wrap;
 }
 
+.styles_icons{
+  color: rgb(241, 205, 179);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+}
+
 .first_column{
   margin-right: 160px;
 }
 
-.second_column{
-  margin-right: 160px;
-}
 
 .questions{
   padding-top: 16px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: 0.06em;
-
 }
 
 .email{
-  margin-bottom: 49px;
-  color: rgb(241, 205, 179);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 115%;
-  letter-spacing: 0.06em;
+  background: transparent url(/shelter/assets/icons/mail.svg) no-repeat left center;
+  padding-left: 60px;
+  margin-bottom: 40px;
 
+  height: 32px;
 }
 
 .telephone{
-  color: rgb(241, 205, 179);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 115%;
-  letter-spacing: 0.06em;
+  background: transparent url(/shelter/assets/icons/icon-phone.svg) no-repeat left bottom;
+  padding-left: 60px;
+  height: 32px;
+  
+
 }
 
 .visit{
@@ -535,19 +539,20 @@ footer{
 }
 
 .first_location{
-  margin-bottom: 37px;
-  color: rgb(241, 205, 179);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 115%;
-  letter-spacing: 0.06em;
-  width: 260px;
+  background: transparent url(/shelter/assets/icons/icon-marker.svg) no-repeat left center;
+  padding-left: 42px;
+
+  margin-bottom: 32px;
+
+  height: 46px;
 }
 
 .second_location{
-  color: rgb(241, 205, 179);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 115%;
-  letter-spacing: 0.06em;
+  background: transparent url(/shelter/assets/icons/icon-marker.svg) no-repeat left center;
+  padding-left: 42px;
+  height: 32px;
+}
+
+.footer_orange_dog{
+  margin-left: auto;
 }
