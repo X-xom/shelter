@@ -152,6 +152,7 @@ img{
   padding-top: 80px;
   height: 588px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .cat_and_dog{

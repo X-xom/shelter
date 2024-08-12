@@ -1,0 +1,30 @@
+@media (max-width: 768px){
+
+  .wrapper{
+    max-width: 708px;
+  }
+
+  .container{
+    height: 1165px;
+  }
+
+  .intro{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    height: 1075px;
+    justify-content: center;
+  }
+
+  
+  .intro_title{
+    padding-top: 0px;
+  }
+
+  .dog_pic{
+    padding-top: 100px;
+    padding-left: 139px;
+  }
+
+
+}
