@@ -1,5 +1,6 @@
 @media (max-width: 768px){
 
+  /* header + Not only */
   .wrapper{
     max-width: 708px;
   }
@@ -16,9 +17,23 @@
     justify-content: center;
   }
 
+
+  .only_column_text{
+    display: flex;
+    flex-direction: column;
+  }
   
   .intro_title{
     padding-top: 0px;
+  }
+
+  .intro_subtitle{
+    margin-bottom: 42px;
+  }
+
+  .search_submit{
+    align-self: center;
+    padding: 15px 45px;
   }
 
   .dog_pic{
@@ -26,5 +41,9 @@
     padding-left: 139px;
   }
 
-
+  /* About */
+  .about_wrapper{
+    height: 1048px;
+    
+  }
 }
