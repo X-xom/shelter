@@ -1,6 +1,6 @@
 @media (max-width: 768px){
 
-  /* header + Not only */
+  /* Header + Not only */
   .wrapper{
     max-width: 708px;
   }
@@ -42,8 +42,16 @@
   }
 
   /* About */
-  .about_wrapper{
+  .About{
     height: 1048px;
     
   }
+  .about_wrapper{
+    flex-direction: column-reverse;
+  }
+
+  .about_text_wrapper{
+    padding-top: 0px;
+  }
+
 }

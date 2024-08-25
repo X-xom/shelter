@@ -153,11 +153,11 @@ img{
 
 .About{
   background-color: #FFFFFF;
+  height: 588px;
 }
 
 .about_wrapper{
   padding-top: 80px;
-  height: 588px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -165,7 +165,6 @@ img{
 .cat_and_dog{
   padding-left: 175px;
   height: 408px;
-
 }
 
 .about_text_wrapper{
@@ -174,7 +173,6 @@ img{
   margin: 0 auto;
   margin-left: 120px;
   flex-wrap: wrap;
-  align-items:self-end;
   
 }
 
